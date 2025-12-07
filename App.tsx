@@ -51,9 +51,11 @@ const App: React.FC = () => {
 
       {/* Sticky Bottom CTA for Mobile */}
       <div className="fixed bottom-0 left-0 right-0 z-50 p-6 bg-[#0B0A14]/90 backdrop-blur-xl border-t border-white/10 md:hidden">
-        <Button fullWidth onClick={scrollToCheckout} variant="primary">
+      <a href="https://plataformamiami.com/ph-checkout">
+        <Button fullWidth variant="primary">
           QUERO MINHA VAGA
         </Button>
+        </a>
       </div>
 
       {/* Hero Section */}
@@ -85,9 +87,11 @@ const App: React.FC = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-6">
-            <Button onClick={scrollToCheckout} variant="primary" className="text-lg px-12 py-4">
-              Aplicar Agora
-            </Button>
+            <a href="https://plataformamiami.com/ph-checkout">
+        <Button fullWidth variant="primary">
+          QUERO MINHA VAGA
+        </Button>
+        </a>
             <Button variant="secondary" className="text-lg px-12 py-4">
               Saber Mais
             </Button>
@@ -225,16 +229,16 @@ const App: React.FC = () => {
           <div className="grid md:grid-cols-2 gap-16 items-center">
              <div className="order-2 md:order-1 relative">
                 <div className="absolute inset-0 bg-gradient-to-tr from-violet-600 to-fuchsia-600 blur-[80px] opacity-20 rounded-full"></div>
-                <div className="relative z-10 space-y-8">
-                   <div className="glass-panel p-6 rounded-2xl border-l-4 border-violet-500">
+                <div className="relative z-10 space-y-6">
+                   <div className="glass-panel p-6 rounded-2xl border-l-4 border-violet-500 hover:bg-white/5 transition-colors duration-300">
                       <h3 className="text-xl font-bold text-white mb-2">Manhã</h3>
                       <p className="text-gray-400 text-sm">Briefing estratégico e Idea Mining. A casa acorda com cheiro de café e novas ideias.</p>
                    </div>
-                   <div className="glass-panel p-6 rounded-2xl border-l-4 border-fuchsia-500 ml-8">
+                   <div className="glass-panel p-6 rounded-2xl border-l-4 border-fuchsia-500 md:ml-8 hover:bg-white/5 transition-colors duration-300">
                       <h3 className="text-xl font-bold text-white mb-2">Tarde</h3>
                       <p className="text-gray-400 text-sm">Produção intensa (Deep Work). Mentores circulam ajustando rotas. O silêncio da produtividade.</p>
                    </div>
-                   <div className="glass-panel p-6 rounded-2xl border-l-4 border-cyan-500">
+                   <div className="glass-panel p-6 rounded-2xl border-l-4 border-cyan-500 md:ml-16 hover:bg-white/5 transition-colors duration-300">
                       <h3 className="text-xl font-bold text-white mb-2">Noite</h3>
                       <p className="text-gray-400 text-sm">Livestreams, Pitching e Conexão. Onde a mágica acontece e as parcerias se formam.</p>
                    </div>
@@ -332,9 +336,11 @@ const App: React.FC = () => {
           </div>
 
           <div className="flex flex-col items-center gap-6">
-            <Button variant="primary" className="text-xl px-16 py-6 w-full md:w-auto shadow-2xl shadow-violet-500/30">
-              GARANTIR MINHA VAGA
-            </Button>
+            <a href="https://plataformamiami.com/ph-checkout">
+        <Button fullWidth variant="primary">
+          GARANTIR MINHA VAGA
+        </Button>
+        </a>
             <div className="flex items-center gap-2 text-xs text-gray-500 uppercase tracking-widest">
               <Lock size={12} className="text-green-500" /> Pagamento Seguro via Stripe
             </div>
