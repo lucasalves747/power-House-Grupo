@@ -3,11 +3,11 @@ import { Section } from './components/Section';
 import { Button } from './components/Button';
 import { Features } from './components/Features';
 import { Navbar } from './components/Navbar';
-import { 
-  CheckCircle2, 
-  XCircle, 
-  Calendar, 
-  Users, 
+import {
+  CheckCircle2,
+  XCircle,
+  Calendar,
+  Users,
   Lock,
   ArrowRight
 } from 'lucide-react';
@@ -39,7 +39,7 @@ const App: React.FC = () => {
 
   return (
     <div className="min-h-screen font-sans text-gray-100 selection:bg-fuchsia-500 selection:text-white pb-24 relative">
-      
+
       {/* Global Background Blobs */}
       <div className="fixed inset-0 overflow-hidden pointer-events-none -z-10">
         <div className="absolute top-[-10%] left-[-10%] w-[50%] h-[50%] bg-purple-900/30 rounded-full blur-[120px] animate-blob"></div>
@@ -51,47 +51,47 @@ const App: React.FC = () => {
 
       {/* Sticky Bottom CTA for Mobile */}
       <div className="fixed bottom-0 left-0 right-0 z-50 p-6 bg-[#0B0A14]/90 backdrop-blur-xl border-t border-white/10 md:hidden">
-      <a href="https://plataformamiami.com/ph-checkout">
-        <Button fullWidth variant="primary">
-          QUERO MINHA VAGA
-        </Button>
+        <a href="https://link.salee.ai/widget/form/mgyNcpOSWfSARnYRntFg">
+          <Button fullWidth variant="primary">
+            QUERO MINHA VAGA
+          </Button>
         </a>
       </div>
 
       {/* Hero Section */}
       <div className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden pt-20">
-        
+
         <div className="relative z-10 container mx-auto px-6 flex flex-col items-center text-center max-w-5xl">
           <div className="mb-12 animate-float">
-            <img 
-              src="https://storage.googleapis.com/msgsndr/dkM0aNpySiIFf3uusFTa/media/6924bc728e95931a56e7af3d.png" 
-              alt="Power House Miami" 
+            <img
+              src="https://storage.googleapis.com/msgsndr/dkM0aNpySiIFf3uusFTa/media/6924bc728e95931a56e7af3d.png"
+              alt="Power House Miami"
               className="w-full max-w-xs md:max-w-md drop-shadow-[0_0_50px_rgba(120,57,238,0.3)]"
             />
           </div>
-          
+
           <div className="inline-flex items-center gap-3 bg-white/5 backdrop-blur-md px-6 py-2 rounded-full border border-white/10 mb-10 shadow-lg shadow-purple-900/20">
             <div className="w-2 h-2 rounded-full bg-green-400 animate-pulse"></div>
             <span className="font-medium tracking-wide text-sm text-gray-300">12 a 14 de Dezembro 2025</span>
           </div>
 
-          <h1 className="text-5xl md:text-7xl font-bold mb-8 leading-tight tracking-tight">
-            Construa seu legado <br className="hidden md:block" />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-violet-400 to-fuchsia-400 text-glow">
+          <h1 className="text-3xl md:text-5xl font-bold mb-8 leading-tight tracking-tight">
+            Acompanhe a construção de legados <br className="hidden md:block" /> 
+            <span className="text-transparent text-5xl md:text-7xl bg-clip-text bg-gradient-to-r from-cyan-400 via-violet-400 to-fuchsia-400 text-glow">
               em apenas 3 dias
             </span>
           </h1>
 
           <p className="text-lg md:text-xl text-gray-400 font-light max-w-2xl leading-relaxed mb-12">
-             Imersão profunda para criar seu método, livro e produto ao lado de mentores especialistas.
+            Testemunhe imersôes profundas para a criação de métodos, livros e produtos ao lado dos mentores especialistas.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-6">
-            <a href="https://plataformamiami.com/ph-checkout">
-        <Button fullWidth variant="primary">
-          QUERO MINHA VAGA
-        </Button>
-        </a>
+            <a href="https://link.salee.ai/widget/form/mgyNcpOSWfSARnYRntFg">
+              <Button fullWidth variant="primary">
+                QUERO ASSISTIR AGORA!
+              </Button>
+            </a>
             <Button variant="secondary" className="text-lg px-12 py-4">
               Saber Mais
             </Button>
@@ -103,37 +103,38 @@ const App: React.FC = () => {
       <Section id="concept">
         <div className="grid md:grid-cols-2 gap-24 items-center">
           <div className="space-y-12">
-             <div>
+            <div>
               <h2 className="text-4xl md:text-5xl font-bold leading-tight text-white mb-6">
                 Não planeje. <br />
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-500 to-fuchsia-500">Construa.</span>
               </h2>
               <p className="text-gray-400 text-lg leading-relaxed">
-                E se você pudesse ativar seu modo criador máximo? Sem distrações, sem procrastinação. Apenas você, 20 criadores selecionados e uma mansão preparada para produção de alta performance.
+                E se você pudesse ativar seu modo criador máximo?
+                Apenas testemunhando 20 criadores selecionados em uma mansão preparada para produção de alta performance.
               </p>
-             </div>
-             
-             <div className="glass-panel p-8 rounded-3xl relative overflow-hidden group">
-                <div className="absolute top-0 right-0 w-32 h-32 bg-purple-500/20 blur-[50px] rounded-full group-hover:bg-purple-500/30 transition-colors"></div>
-                <p className="text-white italic text-lg relative z-10">
-                  "Enquanto câmeras transmitem os bastidores, sua autoridade cresce em tempo real. Um reality show onde o protagonista é o seu negócio."
-                </p>
-             </div>
+            </div>
 
-             <div className="flex items-center gap-4 text-gray-400 text-sm font-medium tracking-widest uppercase">
-               <span className="w-12 h-[1px] bg-gray-700"></span>
-               Power House Experience
-             </div>
+            <div className="glass-panel p-8 rounded-3xl relative overflow-hidden group">
+              <div className="absolute top-0 right-0 w-32 h-32 bg-purple-500/20 blur-[50px] rounded-full group-hover:bg-purple-500/30 transition-colors"></div>
+              <p className="text-white italic text-lg relative z-10">
+                "Enquanto câmeras transmitissem cada detalhe, aumentando seu conhecimento, sua clareza e seu repertório em tempo real. Parece loucura? Ótimo."
+              </p>
+            </div>
+
+            <div className="flex items-center gap-4 text-gray-400 text-sm font-medium tracking-widest uppercase">
+              <span className="w-12 h-[1px] bg-gray-700"></span>
+              Porque é exatamente isso que a TRANSMISSÃO POWER HOUSE faz.
+            </div>
           </div>
 
           <div className="relative group perspective-1000">
             <div className="absolute inset-0 bg-gradient-to-r from-violet-600 to-fuchsia-600 rounded-[2.5rem] rotate-3 blur opacity-40 group-hover:opacity-60 transition-opacity duration-500"></div>
-            <img 
-              src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=2053&auto=format&fit=crop" 
-              alt="Mansion Interior" 
+            <img
+              src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=2053&auto=format&fit=crop"
+              alt="Mansion Interior"
               className="relative rounded-[2.5rem] shadow-2xl z-10 grayscale-[20%] group-hover:grayscale-0 transition-all duration-700 border border-white/10 w-full object-cover aspect-[4/5]"
             />
-             {/* Floating Badge */}
+            {/* Floating Badge */}
             <div className="absolute -bottom-10 -left-10 z-20 glass-panel p-6 rounded-2xl animate-float hidden md:block">
               <div className="flex items-center gap-4">
                 <div className="bg-green-500/20 p-3 rounded-full">
@@ -153,10 +154,10 @@ const App: React.FC = () => {
       <Section className="py-20">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-20">
-             <h2 className="text-3xl md:text-5xl font-bold mb-6">A Evolução da <span className="text-fuchsia-500">Criação</span></h2>
-             <p className="text-gray-400 max-w-2xl mx-auto">Esqueça os métodos tradicionais. O Power House é uma cápsula de aceleração temporal para o seu negócio.</p>
+            <h2 className="text-3xl md:text-5xl font-bold mb-6">A Evolução da <span className="text-fuchsia-500">Criação</span></h2>
+            <p className="text-gray-400 max-w-2xl mx-auto">Esqueça os métodos tradicionais. O Power House é uma cápsula de aceleração temporal para o seu negócio.</p>
           </div>
-          
+
           <div className="grid md:grid-cols-2 gap-8">
             {/* Old Way */}
             <div className="p-10 rounded-[2.5rem] bg-[#15131e] border border-white/5 relative group hover:bg-[#1a1725] transition-colors">
@@ -166,10 +167,10 @@ const App: React.FC = () => {
               </div>
               <ul className="space-y-6">
                 {[
-                  "Cursos teóricos sem prática",
-                  "Eventos passivos e lotados",
-                  "Solidão empreendedora",
-                  "Projetos engavetados"
+                  "Cursos que ensinam, mas não constroem",
+                  "Eventos que inspiram, mas não entregam",
+                  "Estruturas lentas, confusas e solitárias",
+                  "Produtos que nunca saem do papel"
                 ].map((item, i) => (
                   <li key={i} className="flex items-center gap-4 text-gray-500 group-hover:text-gray-400 transition-colors">
                     <XCircle className="w-5 h-5 text-gray-700 shrink-0" />
@@ -184,17 +185,18 @@ const App: React.FC = () => {
               <div className="absolute inset-0 bg-gradient-to-r from-violet-600/5 to-fuchsia-600/5 rounded-[2.5rem] opacity-0 group-hover:opacity-100 transition-opacity"></div>
               <div className="mb-8 relative z-10">
                 <div className="flex items-center gap-3 mb-2">
-                   <h3 className="text-xl font-bold text-white">Power House</h3>
-                   <span className="bg-violet-500/20 text-violet-300 text-[10px] font-bold px-2 py-1 rounded-full uppercase tracking-wider">Premium</span>
+                  <h3 className="text-xl font-bold text-white">Power House</h3>
+                  <span className="bg-violet-500/20 text-violet-300 text-[10px] font-bold px-2 py-1 rounded-full uppercase tracking-wider">Premium</span>
                 </div>
                 <div className="h-1 w-12 bg-gradient-to-r from-violet-500 to-fuchsia-500 rounded-full"></div>
               </div>
               <ul className="space-y-6 relative z-10">
                 {[
-                  "Imersão prática de 3 dias",
-                  "Networking de alto nível",
-                  "Mentoria ativa e direta",
-                  "Execução em tempo real"
+                  "Ver eles entrarem em uma casa por 3 dias…",
+                  "E ver eles saírem com tudo pronto para vender",
+                  "Nada de anotar ideias",
+                  'Nada de “um dia eu faço"',
+                  "Nada de voltar pra casa sem clareza"
                 ].map((item, i) => (
                   <li key={i} className="flex items-center gap-4 text-gray-200">
                     <CheckCircle2 className="w-5 h-5 text-violet-500 shrink-0" />
@@ -227,35 +229,35 @@ const App: React.FC = () => {
       <Section className="bg-[#0B0A14]">
         <div className="max-w-5xl mx-auto">
           <div className="grid md:grid-cols-2 gap-16 items-center">
-             <div className="order-2 md:order-1 relative">
-                <div className="absolute inset-0 bg-gradient-to-tr from-violet-600 to-fuchsia-600 blur-[80px] opacity-20 rounded-full"></div>
-                <div className="relative z-10 space-y-6">
-                   <div className="glass-panel p-6 rounded-2xl border-l-4 border-violet-500 hover:bg-white/5 transition-colors duration-300">
-                      <h3 className="text-xl font-bold text-white mb-2">Manhã</h3>
-                      <p className="text-gray-400 text-sm">Briefing estratégico e Idea Mining. A casa acorda com cheiro de café e novas ideias.</p>
-                   </div>
-                   <div className="glass-panel p-6 rounded-2xl border-l-4 border-fuchsia-500 md:ml-8 hover:bg-white/5 transition-colors duration-300">
-                      <h3 className="text-xl font-bold text-white mb-2">Tarde</h3>
-                      <p className="text-gray-400 text-sm">Produção intensa (Deep Work). Mentores circulam ajustando rotas. O silêncio da produtividade.</p>
-                   </div>
-                   <div className="glass-panel p-6 rounded-2xl border-l-4 border-cyan-500 md:ml-16 hover:bg-white/5 transition-colors duration-300">
-                      <h3 className="text-xl font-bold text-white mb-2">Noite</h3>
-                      <p className="text-gray-400 text-sm">Livestreams, Pitching e Conexão. Onde a mágica acontece e as parcerias se formam.</p>
-                   </div>
+            <div className="order-2 md:order-1 relative">
+              <div className="absolute inset-0 bg-gradient-to-tr from-violet-600 to-fuchsia-600 blur-[80px] opacity-20 rounded-full"></div>
+              <div className="relative z-10 space-y-6">
+                <div className="glass-panel p-6 rounded-2xl border-l-4 border-violet-500 hover:bg-white/5 transition-colors duration-300">
+                  <h3 className="text-xl font-bold text-white mb-2">Manhã</h3>
+                  <p className="text-gray-400 text-sm">Briefing estratégico e Idea Mining. A casa acorda com cheiro de café e novas ideias.</p>
                 </div>
-             </div>
-             
-             <div className="order-1 md:order-2 space-y-8">
-                <h2 className="text-4xl font-bold">Um dia na <br/><span className="text-fuchsia-500">Experiência</span></h2>
-                <p className="text-gray-400 text-lg leading-relaxed">
-                   Não é um evento de palestras. É um laboratório vivo. Você entra projeto e sai produto. A energia do ambiente te impede de pensar pequeno.
-                </p>
-                <div className="flex flex-wrap gap-4">
-                   <span className="px-4 py-2 rounded-full bg-white/5 border border-white/10 text-sm text-gray-300">Networking Curado</span>
-                   <span className="px-4 py-2 rounded-full bg-white/5 border border-white/10 text-sm text-gray-300">All Inclusive</span>
-                   <span className="px-4 py-2 rounded-full bg-white/5 border border-white/10 text-sm text-gray-300">Acesso Vitalício</span>
+                <div className="glass-panel p-6 rounded-2xl border-l-4 border-fuchsia-500 md:ml-8 hover:bg-white/5 transition-colors duration-300">
+                  <h3 className="text-xl font-bold text-white mb-2">Tarde</h3>
+                  <p className="text-gray-400 text-sm">Produção intensa (Deep Work). Mentores circulam ajustando rotas. O silêncio da produtividade.</p>
                 </div>
-             </div>
+                <div className="glass-panel p-6 rounded-2xl border-l-4 border-cyan-500 md:ml-16 hover:bg-white/5 transition-colors duration-300">
+                  <h3 className="text-xl font-bold text-white mb-2">Noite</h3>
+                  <p className="text-gray-400 text-sm">Livestreams, Pitching e Conexão. Onde a mágica acontece e as parcerias se formam.</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="order-1 md:order-2 space-y-8">
+              <h2 className="text-4xl font-bold">Um dia na <br /><span className="text-fuchsia-500">Experiência</span></h2>
+              <p className="text-gray-400 text-lg leading-relaxed">
+                Não é um evento de palestras. É um laboratório vivo. Você entra projeto e sai produto. A energia do ambiente te impede de pensar pequeno.
+              </p>
+              <div className="flex flex-wrap gap-4">
+                <span className="px-4 py-2 rounded-full bg-white/5 border border-white/10 text-sm text-gray-300">Networking Curado</span>
+                <span className="px-4 py-2 rounded-full bg-white/5 border border-white/10 text-sm text-gray-300">All Inclusive</span>
+                <span className="px-4 py-2 rounded-full bg-white/5 border border-white/10 text-sm text-gray-300">Acesso Vitalício</span>
+              </div>
+            </div>
           </div>
         </div>
       </Section>
@@ -267,7 +269,7 @@ const App: React.FC = () => {
             <h2 className="text-4xl font-bold mb-8">Quem deve <span className="text-cyan-400">aplicar?</span></h2>
             <div className="grid grid-cols-2 gap-4">
               {[
-                "Criadores", "Consultores", "Especialistas", 
+                "Criadores", "Consultores", "Especialistas",
                 "Empreendedores", "Educadores", "Autores"
               ].map((item, i) => (
                 <div key={i} className="flex items-center gap-3 p-4 rounded-xl bg-white/5 hover:bg-white/10 transition-colors border border-white/5">
@@ -277,18 +279,18 @@ const App: React.FC = () => {
               ))}
             </div>
           </div>
-          
+
           <div className="flex-1 bg-gradient-to-br from-[#1a1825] to-[#0f0e16] p-10 rounded-[2.5rem] border border-white/5 relative overflow-hidden group">
             <div className="absolute top-0 right-0 w-64 h-64 bg-fuchsia-500/10 blur-[60px] rounded-full group-hover:bg-fuchsia-500/20 transition-colors"></div>
-            
-            <h3 className="text-2xl font-bold mb-8 text-white relative z-10">O Resultado Final</h3>
-            
+
+            <h3 className="text-2xl font-bold mb-8 text-white relative z-10"><span className="text-lg font-light text-gray-400">Imagine sua vida depois de assistir a </span> <br/>Transmissão Power House</h3>
+
             <div className="space-y-5 relative z-10">
               {[
-                "Seu Método Proprietário",
-                "Livro Estruturado",
-                "Palestra Pronta",
-                "Funil de Vendas Ativo"
+                "Insights de Método",
+                "Inspiração para o Livro",
+                "Palestra modelada",
+                "Funil entendido"
               ].map((item, i) => (
                 <div key={i} className="flex items-center justify-between group/item">
                   <span className="text-lg font-light text-gray-400 group-hover/item:text-white transition-colors">{item}</span>
@@ -298,9 +300,9 @@ const App: React.FC = () => {
                 </div>
               ))}
             </div>
-            
+
             <div className="mt-10 pt-8 border-t border-white/10">
-               <p className="text-sm text-gray-500">Transformação completa em 72 horas.</p>
+              <p className="text-sm text-gray-500">Transformação completa em 72 horas.</p>
             </div>
           </div>
         </div>
@@ -309,41 +311,39 @@ const App: React.FC = () => {
       {/* Scarcity / CTA Section */}
       <Section id="scarcity" className="py-32">
         <div className="max-w-4xl mx-auto text-center relative z-10">
-          
+
           <div className="inline-block mb-8">
             <span className="px-4 py-2 rounded-full bg-red-500/10 text-red-400 border border-red-500/20 text-xs font-bold tracking-widest uppercase">
-              Vagas Limitadas
+              OPORTUNIDADE É ÚNICA!
             </span>
           </div>
-          
+
           <h2 className="text-5xl md:text-8xl font-bold mb-8 tracking-tighter text-white">
-            15 VAGAS
+            É GRATUITO,
           </h2>
-          
+
           <p className="text-xl text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed">
-            Não conseguimos atender mais. A exclusividade é parte do método.
-            <br/>Garanta seu lugar na história.
+            O evento é 100% online, ao vivo e gratuito, mas a chance de ver o processo em tempo real é limitada. São 24h por dia de acompanhamento, criação e construção conjunta. Topo de funil é escalável, Power House é um evento único. É isso.
+            <br />Garanta seu lugar na história.
           </p>
-          
+
           <div className="glass-panel p-8 rounded-2xl max-w-xl mx-auto mb-12 flex flex-col items-center">
-             <div className="w-full flex justify-between text-sm text-gray-400 mb-2 uppercase tracking-wider font-bold">
-               <span>Disponibilidade</span>
-               <span className="text-white">92% Vendido</span>
-             </div>
-             <div className="w-full h-3 bg-[#1a1825] rounded-full overflow-hidden">
-                <div className="h-full bg-gradient-to-r from-red-500 to-orange-500 w-[92%] rounded-full shadow-[0_0_15px_rgba(239,68,68,0.5)]"></div>
-             </div>
+            <div className="w-full flex justify-between text-sm text-gray-400 mb-2 uppercase tracking-wider font-bold">
+              <span>Disponibilidade</span>
+              <span className="text-white">10% LIVRE</span>
+            </div>
+            <div className="w-full h-3 bg-[#1a1825] rounded-full overflow-hidden">
+              <div className="h-full bg-gradient-to-r from-red-500 to-orange-500 w-[92%] rounded-full shadow-[0_0_15px_rgba(239,68,68,0.5)]"></div>
+            </div>
           </div>
 
           <div className="flex flex-col items-center gap-6">
-            <a href="https://plataformamiami.com/ph-checkout">
-        <Button fullWidth variant="primary">
-          GARANTIR MINHA VAGA
-        </Button>
-        </a>
-            <div className="flex items-center gap-2 text-xs text-gray-500 uppercase tracking-widest">
-              <Lock size={12} className="text-green-500" /> Pagamento Seguro via Stripe
-            </div>
+            <a href="https://link.salee.ai/widget/form/mgyNcpOSWfSARnYRntFg">
+              <Button fullWidth variant="primary">
+                GARANTIR MINHA VAGA
+              </Button>
+            </a>
+            
           </div>
         </div>
       </Section>
@@ -351,8 +351,8 @@ const App: React.FC = () => {
       {/* Footer */}
       <footer className="py-12 border-t border-white/5 bg-[#08070e] text-center relative z-10">
         <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6">
-           <img src="https://storage.googleapis.com/msgsndr/dkM0aNpySiIFf3uusFTa/media/6924bc728e95931a56e7af3d.png" alt="Logo" className="h-8    transition-all" />
-           <p className="text-gray-600 text-xs">© 2025 Power House Miami. All rights reserved.</p>
+          <img src="https://storage.googleapis.com/msgsndr/dkM0aNpySiIFf3uusFTa/media/6924bc728e95931a56e7af3d.png" alt="Logo" className="h-8    transition-all" />
+          <p className="text-gray-600 text-xs">© 2025 Power House Miami. All rights reserved.</p>
         </div>
       </footer>
 

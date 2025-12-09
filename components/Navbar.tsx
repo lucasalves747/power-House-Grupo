@@ -29,7 +29,7 @@ export const Navbar: React.FC = () => {
         </div>
         
         <div className="hidden md:block">
-          <a href="https://plataformamiami.com/ph-checkout">
+          <a href="https://link.salee.ai/widget/form/mgyNcpOSWfSARnYRntFg">
         <Button fullWidth variant="primary">
           QUERO MINHA VAGA
         </Button>
