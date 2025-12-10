@@ -319,7 +319,7 @@ const App: React.FC = () => {
           </div>
 
           <h2 className="text-5xl md:text-8xl font-bold mb-8 tracking-tighter text-white">
-            É GRATUITO,
+            É  GRATUITO,
           </h2>
 
           <p className="text-xl text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed">
