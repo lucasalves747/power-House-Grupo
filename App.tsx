@@ -59,18 +59,18 @@ const App: React.FC = () => {
       </div>
 
       {/* Hero Section */}
-      <div className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden pt-20">
+      <div className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden pt-8 md:pt-0">
 
         <div className="relative z-10 container mx-auto px-6 flex flex-col items-center text-center max-w-5xl">
-          <div className="mb-12 animate-float">
+          <div className=" animate-float">
             <img
-              src="https://storage.googleapis.com/msgsndr/dkM0aNpySiIFf3uusFTa/media/6924bc728e95931a56e7af3d.png"
+              src="https://storage.googleapis.com/msgsndr/dkM0aNpySiIFf3uusFTa/media/6939b340e03e9d9dbdaf0ff5.png"
               alt="Power House Miami"
-              className="w-full max-w-xs md:max-w-md drop-shadow-[0_0_50px_rgba(120,57,238,0.3)]"
+              className="h-[250px] md:max-w-md drop-shadow-[0_0_50px_rgba(120,57,238,0.3)] rotate-90"
             />
           </div>
 
-          <div className="inline-flex items-center gap-3 bg-white/5 backdrop-blur-md px-6 py-2 rounded-full border border-white/10 mb-10 shadow-lg shadow-purple-900/20">
+          <div className="inline-flex items-center gap-3 bg-white/5 backdrop-blur-md px-6  rounded-full border border-white/10 mb-10 shadow-lg shadow-purple-900/20">
             <div className="w-2 h-2 rounded-full bg-green-400 animate-pulse"></div>
             <span className="font-medium tracking-wide text-sm text-gray-300">12 a 14 de Dezembro 2025</span>
           </div>
@@ -309,7 +309,7 @@ const App: React.FC = () => {
       </Section>
 
       {/* Scarcity / CTA Section */}
-      <Section id="scarcity" className="py-32">
+      <Section id="scarcity" className="">
         <div className="max-w-4xl mx-auto text-center relative z-10">
 
           <div className="inline-block mb-8">
@@ -351,7 +351,7 @@ const App: React.FC = () => {
       {/* Footer */}
       <footer className="py-12 border-t border-white/5 bg-[#08070e] text-center relative z-10">
         <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6">
-          <img src="https://storage.googleapis.com/msgsndr/dkM0aNpySiIFf3uusFTa/media/6924bc728e95931a56e7af3d.png" alt="Logo" className="h-8    transition-all" />
+          <img src="https://storage.googleapis.com/msgsndr/dkM0aNpySiIFf3uusFTa/media/6938351b10381826274a643d.png" alt="Logo" className="h-20  rotate-90  transition-all" />
           <p className="text-gray-600 text-xs">© 2025 Power House Miami. All rights reserved.</p>
         </div>
       </footer>
